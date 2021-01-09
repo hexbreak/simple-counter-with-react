@@ -8,9 +8,9 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 export function Home(props) {
 	return (
-		<div className="counter">
+		<div className="container">
 			<div className="clock-img">
-				<p>clock text</p>
+				<i className="far fa-clock" />
 			</div>
 			<div className="clock-six">{props.counterSix % 10}</div>
 			<div className="clock-five">{props.counterFive % 10}</div>
