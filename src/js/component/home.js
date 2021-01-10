@@ -18,7 +18,7 @@ export function Home(props) {
 			<div className="clock-three">{props.counterThree % 10}</div>
 			<div className="clock-two">{props.counterTwo % 10}</div>
 			<div className="clock-one">{props.counterOne % 10}</div>
-			<div>
+			<div className="row">
 				<button className="btn btn-dark">Alert Timer</button>
 				<button className="btn btn-dark">Stop / Resume</button>
 				<button className="btn btn-dark">Reset Timer</button>
@@ -35,16 +35,3 @@ Home.propTypes = {
 	counterTwo: PropTypes.number,
 	counterOne: PropTypes.number
 };
-
-/*
-export function ResetButton() {
-    function Reset()
-    window.location.reload(false);
-
-    return (
-        <div>
-            <button onClick={Reset}>Reset Timer</button>
-        </div>
-    );
-}
-*/
