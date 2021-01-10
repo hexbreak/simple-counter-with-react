@@ -10,6 +10,7 @@ import "../styles/index.scss";
 
 //import your own components
 import { Home } from "./component/home.js";
+import { ResetButton } from "./component/home.js";
 
 var i = 0;
 setInterval(function() {

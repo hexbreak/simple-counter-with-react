@@ -19,6 +19,8 @@ export function Home(props) {
 			<div className="clock-two">{props.counterTwo % 10}</div>
 			<div className="clock-one">{props.counterOne % 10}</div>
 			<div>
+				<button className="btn btn-dark">Alert Timer</button>
+				<button className="btn btn-dark">Stop / Resume</button>
 				<button className="btn btn-dark">Reset Timer</button>
 			</div>
 		</div>
